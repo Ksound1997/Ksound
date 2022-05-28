@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #272727;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.section1 p{
+
+}
+.section1 h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.section1 .btn{
+    display: flex;
+}
+ button{
+    padding: 15px 30px;
+    color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 30px; 
+    background-color: tomato;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border: 2px solid white;
+}
+.section2 {
+    text-align: center;
+}
